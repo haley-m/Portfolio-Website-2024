@@ -1,0 +1,276 @@
+.wrap {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+
+.section_1 {
+  width: 100%;
+  padding-top: 70px;
+  position: relative;
+}
+
+.section_1 > p {
+  /* font-family: "Poetsen One", sans-serif; */
+  font-size: 60px;
+  font-weight: 600;
+  position: absolute;
+  left: 60px;
+  bottom: 43%;
+}
+
+@media all and (max-width: 960px) {
+  .section_1 > p {
+    font-size: 45px;
+    font-weight: 600;
+    left: 50px;
+    bottom: 36%;
+  }
+}
+
+@media all and (max-width: 740px) {
+  .section_1 > p {
+    font-size: 40px;
+    left: 30px;
+    bottom: 5%;
+  }
+}
+
+@media all and (max-width: 530px) {
+  .section_1 > p {
+    font-size: 35px;
+    left: 20px;
+    bottom: 3%;
+  }
+}
+
+/* .section_1 end  */
+
+.section_2 {
+  width: 100%;
+  height: 100%;
+  padding: 100px 60px 70px 60px;
+  position: relative;
+}
+
+.sec_2_text_box {
+  width: 70%;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 38px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.hr_line {
+  border-bottom: 1px solid #000;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.sec_2_text_con {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+/* .sec_2_inner_con {
+  margin-right: 60px;
+}
+
+.sec_2_inner_con:last-child {
+  margin-right: 0;
+} */
+
+.sec_2_inner_con > p {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.sec_2_inner_con > p:first-child {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+@media all and (max-width: 1200px) {
+  .sec_2_text_con {
+    flex-wrap: wrap;
+  }
+
+  .sec_2_inner_con {
+    margin-right: 30px;
+    margin-top: 30px;
+  }
+}
+
+@media all and (max-width: 960px) {
+  .section_2 {
+    padding: 60px 40px 60px 40px;
+  }
+
+  .sec_2_text_box {
+    width: 80%;
+    font-size: 19px;
+    line-height: 32px;
+  }
+}
+
+/* @media all and (max-width: 740px) {
+} */
+
+@media all and (max-width: 530px) {
+  .sec_2_text_box {
+    width: 70%;
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
+
+/* section_2 end  */
+
+.section_3 {
+  width: 100%;
+  padding: 100px 60px 70px 60px;
+  /* padding: 100px 270px 70px 270px; */
+  margin-top: 350px;
+  position: relative;
+}
+
+.sec_3_outer_con {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.sec_3_contents_box {
+  margin-bottom: 100px;
+}
+
+.sec_3_contents_box > p:nth-child(1) {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+}
+
+.sec_3_contents_box > p:nth-child(2) {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 34px;
+  margin-top: 20px;
+}
+
+.final_presentation_img {
+  margin-top: 30px;
+}
+
+.bottom_sec {
+  margin-top: 10px;
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.thankyou_sentence {
+  font-size: 24px;
+  font-weight: 400;
+  /* position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 180px; */
+}
+
+.next_project_btn {
+  width: 185px;
+  height: 45px;
+  background-color: #000;
+  border-radius: 6px;
+  text-align: center;
+  line-height: 45px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  /* position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 120px; */
+}
+
+.next_project_btn > a {
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.bottom_sec > a {
+  font-size: 16px;
+  text-decoration: underline;
+  margin-bottom: 74px;
+}
+
+@media all and (max-width: 1176px) {
+  .section_3 {
+    margin-top: 500px;
+  }
+}
+
+@media all and (max-width: 960px) {
+  .section_3 {
+    padding: 60px 40px 60px 40px;
+  }
+
+  .sec_3_outer_con {
+    width: 80%;
+  }
+}
+
+@media all and (max-width: 787px) {
+  .section_3 {
+    margin-top: 540px;
+  }
+
+  .sec_3_contents_box > p:nth-child(1) {
+    font-size: 28px;
+    font-weight: 500;
+  }
+
+  .sec_3_contents_box > p:nth-child(2) {
+    font-size: 17px;
+    line-height: 32px;
+    margin-top: 16px;
+  }
+}
+
+@media all and (max-width: 556px) {
+  .section_3 {
+    margin-top: 640px;
+  }
+
+  .sec_3_contents_box > p:nth-child(1) {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 38px;
+  }
+
+  .sec_3_contents_box > p:nth-child(2) {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-top: 13px;
+  }
+
+  .thankyou_sentence {
+    font-size: 20px;
+  }
+}
+
+@media all and (max-width: 460px) {
+  .section_3 {
+    margin-top: 850px;
+  }
+}
+
+/* section_3 end  */
