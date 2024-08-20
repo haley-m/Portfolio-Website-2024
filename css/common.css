@@ -272,8 +272,8 @@ header {
 
 @media all and (max-width: 590px) {
   .logo {
-    /* height: 43px; */
-    margin-top: 17px;
+    height: 30px;
+    margin-top: 9px;
   }
 
   .in_header {
@@ -405,6 +405,10 @@ footer {
 @media all and (max-width: 548px) {
   footer {
     height: 650px;
+  }
+
+  .footer_logo {
+    height: 27px;
   }
 }
 
