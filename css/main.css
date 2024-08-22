@@ -314,6 +314,10 @@
     height: 60px;
   }
 
+  .profile_img > img {
+    height: 60px;
+  }
+
   .about_me_btn {
     width: 103px;
     height: 37px;

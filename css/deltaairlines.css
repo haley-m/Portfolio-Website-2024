@@ -129,6 +129,10 @@
 } */
 
 @media all and (max-width: 530px) {
+  .section_2 {
+    min-height: 180px;
+  }
+
   .sec_2_text_box {
     width: 70%;
     font-size: 18px;

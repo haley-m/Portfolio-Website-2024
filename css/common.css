@@ -276,6 +276,10 @@ header {
     margin-top: 9px;
   } */
 
+  .logo > img {
+    height: 30px;
+  }
+
   .in_header {
     width: 135px;
   }
