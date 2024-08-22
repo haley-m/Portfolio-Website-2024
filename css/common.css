@@ -272,9 +272,8 @@ header {
 
 @media all and (max-width: 590px) {
   .logo {
-    width: 70px;
-    /* height: 30px;
-    margin-top: 9px; */
+    height: 45px;
+    margin-top: 9px;
   }
 
   .in_header {
