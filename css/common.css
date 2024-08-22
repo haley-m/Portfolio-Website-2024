@@ -214,11 +214,11 @@ header {
 }
 
 @media all and (max-width: 1024px) {
-  /* .logo {
+  .logo {
     height: 38px;
     margin-left: 30px;
     margin-top: 14px;
-  } */
+  }
 
   .in_header {
     width: 425px;
@@ -243,10 +243,10 @@ header {
 }
 
 @media all and (max-width: 760px) {
-  /* .logo {
+  .logo {
     height: 35px;
     margin-top: 17px;
-  } */
+  }
 
   .in_header {
     width: 305px;
@@ -271,10 +271,10 @@ header {
 }
 
 @media all and (max-width: 590px) {
-  /* .logo {
+  .logo {
     height: 30px;
-    margin-top: 9px;
-  } */
+    /* margin-top: 9px; */
+  }
 
   .in_header {
     width: 135px;
