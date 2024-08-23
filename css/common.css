@@ -334,6 +334,10 @@ footer {
   height: 34px;
 }
 
+.footer_logo > img {
+  object-fit: contain;
+}
+
 .footer_work {
   display: flex;
 }
