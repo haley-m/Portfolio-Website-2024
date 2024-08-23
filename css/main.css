@@ -29,6 +29,10 @@
   height: 100px;
 }
 
+.profile_img > img {
+  object-fit: contain;
+}
+
 .profile_box > p {
   font-family: "Dancing Script", cursive;
   font-size: 28px;
@@ -312,10 +316,6 @@
 
   .profile_img {
     height: 60px;
-  }
-
-  .profile_img > img {
-    height: 50%;
   }
 
   .about_me_btn {

@@ -276,6 +276,10 @@ header {
     margin-top: 9px;
   }
 
+  .logo > img {
+    object-fit: contain;
+  }
+
   .in_header {
     width: 135px;
   }
