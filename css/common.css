@@ -334,10 +334,6 @@ footer {
   height: 34px;
 }
 
-.footer_logo > img {
-  object-fit: contain;
-}
-
 .footer_work {
   display: flex;
 }
@@ -417,6 +413,10 @@ footer {
 
   .footer_logo {
     height: 27px;
+  }
+
+  .footer_logo > img {
+    object-fit: contain;
   }
 }
 
